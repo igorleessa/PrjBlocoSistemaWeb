@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrjBlocoSistemaWeb.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+155aeddc3664c05adf7ea0631ce0121ef490daf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrjBlocoSistemaWeb.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrjBlocoSistemaWeb.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,3 +13,4 @@ C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Repository\bin
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Repository\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Repository\obj\Debug\net8.0\PrjBlocoSistemaWeb.Repository.csproj.AssemblyReference.cache
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Repository\obj\Debug\net8.0\PrjBlocoSistemaWeb.Repository.csproj.CopyComplete
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Repository\obj\Debug\net8.0\PrjBlocoSistemaWeb.Repository.sourcelink.json

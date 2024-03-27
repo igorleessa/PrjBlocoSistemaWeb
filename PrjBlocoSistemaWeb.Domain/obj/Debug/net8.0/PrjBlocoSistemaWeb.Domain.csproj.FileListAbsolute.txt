@@ -9,3 +9,4 @@ C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Deb
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\refint\PrjBlocoSistemaWeb.Domain.dll
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\ref\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.sourcelink.json

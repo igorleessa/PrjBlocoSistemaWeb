@@ -1,0 +1,3 @@
+dotnet ef migrations add InitialDatabase -c PrjBlocoSistemaWebContext -p ./PrjBlocoSistemaWeb.Repository/PrjBlocoSistemaWeb.Repository.csproj -s ./PrjBlocoSistemaWeb.Api/PrjBlocoSistemaWeb.Api.csproj
+
+dotnet ef database update -c PrjBlocoSistemaWebContext -p ./PrjBlocoSistemaWeb.Repository/PrjBlocoSistemaWeb.Repository.csproj -s ./PrjBlocoSistemaWeb.Api/PrjBlocoSistemaWeb.Api.csproj --verbose

@@ -1,3 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using PrjBlocoSistemaWeb.Application.Conta.Profile;
+using PrjBlocoSistemaWeb.Application.Conta;
+using PrjBlocoSistemaWeb.Application.Streaming;
+using PrjBlocoSistemaWeb.Repository.Repository;
+using PrjBlocoSistemaWeb.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +13,25 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<PrjBlocoSistemaWebContext>(c =>
+{
+    c.UseLazyLoadingProxies()
+     .UseSqlServer(builder.Configuration.GetConnectionString("PrjBlocoConnection"));
+});
+
+
+builder.Services.AddAutoMapper(typeof(UsuarioProfile).Assembly);
+
+
+//Repositories
+builder.Services.AddScoped<UsuarioRepository>();
+builder.Services.AddScoped<PlanoRepository>();
+builder.Services.AddScoped<BandaRepository>();
+
+//Services
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<BandaService>();
 
 var app = builder.Build();
 
