@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PrjBlocoSistemaWeb.Api.props" />
+</Project>

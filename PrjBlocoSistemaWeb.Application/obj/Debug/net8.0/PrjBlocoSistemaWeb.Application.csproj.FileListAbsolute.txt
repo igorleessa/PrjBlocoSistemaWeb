@@ -1,0 +1,17 @@
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Application.deps.json
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Application.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Application.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Repository.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Repository.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.csproj.AssemblyReference.cache
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.AssemblyInfoInputs.cache
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.AssemblyInfo.cs
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.csproj.CoreCompileInputs.cache
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.csproj.CopyComplete
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\refint\PrjBlocoSistemaWeb.Application.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\PrjBlocoSistemaWeb.Application.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Application\obj\Debug\net8.0\ref\PrjBlocoSistemaWeb.Application.dll

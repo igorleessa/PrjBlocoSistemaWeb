@@ -1,0 +1,11 @@
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.AssemblyInfo.cs
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.deps.json
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\refint\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
+C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\ref\PrjBlocoSistemaWeb.Domain.dll
