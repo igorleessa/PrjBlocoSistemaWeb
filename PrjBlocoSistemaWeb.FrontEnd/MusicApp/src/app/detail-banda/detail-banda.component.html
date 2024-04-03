@@ -1,0 +1,21 @@
+<div *ngIf="banda != undefined">
+    <span>Nome: {{banda.nome}}</span><br>
+    <span>Descrição: {{banda.descricao}}</span>
+    <br>
+    <img [src]="banda.backdrop" *ngIf="banda != undefined">
+</div>
+
+
+
+<mat-accordion>
+    <mat-expansion-panel hideToggle *ngFor="let album of albuns">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+            {{album.nome}}
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p *ngFor="let music of album.musicas">
+            Musica: {{music.nome}} - {{music.duracao}} min
+        </p>
+    </mat-expansion-panel>
+  </mat-accordion>
