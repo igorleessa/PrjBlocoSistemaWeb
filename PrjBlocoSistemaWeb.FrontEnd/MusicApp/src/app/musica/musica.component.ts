@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ActivatedRouteSnapshot, Route } from '@angular/router';
+import { ActivatedRoute, ActivatedRouteSnapshot, Route, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
-import { BandaService } from '../services/banda.service';
+import { MusicaService } from '../services/musica.service';
+import { Musica } from '../model/album';
 
 @Component({
   selector: 'app-musica',
@@ -11,17 +12,26 @@ import { BandaService } from '../services/banda.service';
   templateUrl: './musica.component.html',
   styleUrl: './musica.component.css'
 })
+
 export class MusicaComponent implements OnInit {
-  idMusica = ''
 
+  musicas!: Musica[]
 
-  constructor(private route: ActivatedRoute, private bandaService: BandaService){
+  constructor(private route: ActivatedRoute, private router: Router, private musicaService: MusicaService){
 
   }
   
   ngOnInit(): void {
-    this.idMusica = this.route.snapshot.params["id"]
-    
+    // this.musicaService.findMusica().subscribe(response => {
+    //   this.musicas = response as any;
+    // })    
+  }
+
+  public buscarMusicas(nomeMusica: string){
+    this.musicaService.findMusica("Vira").subscribe(response => {
+      this.musicas = response
+      console.log(response)
+    })
   }
 }
 

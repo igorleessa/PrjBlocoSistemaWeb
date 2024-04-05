@@ -25,7 +25,7 @@ export class BandaService {
     return this.httpClient.get<Album[]>(`${this.url}/${id}/albums`);
   }
 
-  public getMusica(musica : string) : Observable<Musica>{
-    return this.httpClient.get<Musica>(`${this.url}/musica/${musica}`)
-  }
+  // public getMusica(musica : string) : Observable<Musica>{
+  //   return this.httpClient.get<Musica>(`${this.url}/musica/BuscarMusica/${musica}`)
+  // }
 }

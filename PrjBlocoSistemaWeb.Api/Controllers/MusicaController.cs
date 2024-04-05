@@ -48,16 +48,36 @@ namespace PrjBlocoSistemaWeb.Api.Controllers
             //return Created($"/musica/{result.Id}", result);
         }
 
-        [HttpPost("{nomeMusica}")]
+        [HttpGet]
+        [Route("BuscarMusica")]
         public IActionResult BuscarMusica(string nomeMusica)
         {
             if (ModelState is { IsValid: false })
                 return BadRequest();
 
             var result = this._musicaService.BuscarMusica(nomeMusica);
+            
+            if (result == null)
+                return NotFound();
 
-            return Created($"/musica/{result.Id}", result);
+            return Ok(result);
 
         }
+
+        //[HttpPost]
+        //[Route("Favoritar")]
+        //public IActionResult FavoritarMusica(Guid id)
+        //{
+        //    if (ModelState is { IsValid: false })
+        //        return BadRequest();
+
+        //    var result = this._musicaService.BuscarMusica(id);
+
+        //    if (result == null)
+        //        return NotFound();
+
+        //    return Ok(result);
+
+        //}
     }
 }

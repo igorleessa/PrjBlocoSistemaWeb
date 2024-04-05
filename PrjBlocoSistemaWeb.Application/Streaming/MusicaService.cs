@@ -42,14 +42,10 @@ namespace PrjBlocoSistemaWeb.Application.Streaming
             return this.Mapper.Map<IEnumerable<MusicaDto>>(banda);
         }
 
-        public MusicaDto BuscarMusica(string nomeMusica)
+        public List<Musica> BuscarMusica(string nomeMusica)
         {
-            var musica = this.MusicaRepository.Find(x => x.Nome == nomeMusica).FirstOrDefault();
-            if (musica == null)
-                throw new Exception("Música não encontrada");
-            var result = this.Mapper.Map<MusicaDto>(musica);
-            return result;
-
+            var listMusica = MusicaRepository.Find(x => x.Nome.Contains(nomeMusica)).ToList();
+            return listMusica;
         }
 
         //public MusicaDto FavoritarMusica()
