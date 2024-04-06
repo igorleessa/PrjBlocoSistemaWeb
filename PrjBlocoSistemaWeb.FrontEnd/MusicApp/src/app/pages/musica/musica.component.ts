@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ActivatedRouteSnapshot, Route, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
-import { MusicaService } from '../services/musica.service';
-import { Musica } from '../model/album';
+import { MusicaService } from '../../services/musica.service';
+import { Musica } from '../../model/album';
 
 @Component({
   selector: 'app-musica',

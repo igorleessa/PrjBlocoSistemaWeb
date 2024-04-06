@@ -1,0 +1,40 @@
+<div class="page">
+    <mat-form-field appearance="outline">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Nome" [formControl]="nome" >
+        <mat-error *ngIf="nome.invalid">Nome inválido</mat-error>
+      </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Data de Nascimento</mat-label>
+        <input matInput placeholder="Data de Nascimento" [formControl]="dtNascimento" >
+        <mat-error *ngIf="dtNascimento.invalid">Data invalida</mat-error>
+      </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Email" [formControl]="email" >
+        <mat-error *ngIf="email.invalid">Email inválido</mat-error>
+      </mat-form-field>
+    <br>
+      <mat-form-field>
+        <mat-label>Senha</mat-label>
+        <input matInput [type]="'password'" [formControl]="senha">
+        <mat-error *ngIf="senha.invalid">Senha inválida</mat-error>
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="outline">
+        <mat-label>Número do Cartão</mat-label>
+        <input matInput placeholder="Número do Cartão" [formControl]="numeroCartao" >
+        <mat-error *ngIf="numeroCartao.invalid">Numero invalido</mat-error>
+      </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Limite do Cartão</mat-label>
+        <input matInput placeholder="Limite do Cartao" [formControl]="limiteCartao" >
+        <mat-error *ngIf="limiteCartao.invalid">Limite invalido</mat-error>
+      </mat-form-field>
+    <br>
+      <button mat-button color="primary" (click)="cadastrar()">Cadastar</button>
+</div>
+

@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { DetailBandaComponent } from './detail-banda/detail-banda.component';
+import { HomeComponent } from './pages/home/home.component';
+import { DetailBandaComponent } from './pages/detail-banda/detail-banda.component';
+import { ListaBandaComponent } from './pages/lista-banda/lista-banda.component';
+import { CadastroUsuarioComponent } from './pages/cadastro-usuario/cadastro-usuario.component';
 
 export const routes: Routes = [
     {
@@ -10,5 +12,13 @@ export const routes: Routes = [
     {
         path: 'detail/:id',
         component: DetailBandaComponent
+    },
+    {
+        path: 'lista-banda',
+        component: ListaBandaComponent
+    },
+    {
+        path: 'cadastro-usuario',
+        component: CadastroUsuarioComponent
     }
 ];

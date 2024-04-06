@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ActivatedRouteSnapshot, Route } from '@angular/router';
-import { BandaService } from '../services/banda.service';
-import { Banda } from '../model/banda';
-import { Album } from '../model/album';
+import { BandaService } from '../../services/banda.service';
+import { Banda } from '../../model/banda';
+import { Album } from '../../model/album';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { CommonModule } from '@angular/common';
 
