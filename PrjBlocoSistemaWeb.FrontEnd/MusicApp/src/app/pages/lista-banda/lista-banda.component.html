@@ -1,5 +1,7 @@
 <div class="content">
-    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    
+  <button mat-flat-button color="primary" (click)="goToPlaylists()">Playlists</button>
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
       <div fxFlex="50%"
            fxFlex.xs="100%"
            fxFlex.sm="33%" *ngFor="let item of bandas">

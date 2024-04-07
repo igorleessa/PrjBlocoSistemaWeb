@@ -10,3 +10,15 @@ C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Deb
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\ref\PrjBlocoSistemaWeb.Domain.dll
 C:\Users\igorl\source\repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.sourcelink.json
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.deps.json
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\bin\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.AssemblyInfo.cs
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.sourcelink.json
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\refint\PrjBlocoSistemaWeb.Domain.dll
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\PrjBlocoSistemaWeb.Domain.pdb
+C:\Users\igor.souza\Source\Repos\PrjBlocoSistemaWeb\PrjBlocoSistemaWeb.Domain\obj\Debug\net8.0\ref\PrjBlocoSistemaWeb.Domain.dll

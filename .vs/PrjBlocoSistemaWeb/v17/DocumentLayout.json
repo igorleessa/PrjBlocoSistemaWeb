@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.repository\\prjblocosistemawebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|solutionrelative:prjblocosistemaweb.repository\\prjblocosistemawebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|solutionrelative:prjblocosistemaweb.repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\streaming\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\streaming\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\guidgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\guidgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\streaming\\musicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\streaming\\musicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF78290B-1516-406E-AE56-2214F858B36A}|PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.domain\\conta\\agreggates\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF78290B-1516-406E-AE56-2214F858B36A}|PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj|solutionrelative:prjblocosistemaweb.domain\\conta\\agreggates\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\streaming\\dto\\playlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\streaming\\dto\\playlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\streaming\\dto\\musicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\streaming\\dto\\musicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF78290B-1516-406E-AE56-2214F858B36A}|PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.domain\\streaming\\agreggates\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF78290B-1516-406E-AE56-2214F858B36A}|PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj|solutionrelative:prjblocosistemaweb.domain\\streaming\\agreggates\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Plano.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Cartao.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Usuario.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Banda.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Album.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\conta\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\conta\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.application\\streaming\\profile\\musicaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4241FC90-6851-4F70-A4BE-CA571ED689F8}|PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj|solutionrelative:prjblocosistemaweb.application\\streaming\\profile\\musicaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.repository\\mapping\\streaming\\musicamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|solutionrelative:prjblocosistemaweb.repository\\mapping\\streaming\\musicamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.repository\\repository\\bandarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|solutionrelative:prjblocosistemaweb.repository\\repository\\bandarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\controllers\\bandacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\controllers\\bandacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55211632-6060-4472-BA62-14D521AD26FF}|PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj|solutionrelative:prjblocosistemaweb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|c:\\users\\igor.souza\\source\\repos\\prjblocosistemaweb\\prjblocosistemaweb.repository\\scripts_ef.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{43E71430-0CB0-49B8-B95E-33799ECECAD2}|PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj|solutionrelative:prjblocosistemaweb.repository\\scripts_ef.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrjBlocoSistemaWebContext.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWebContext.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWebContext.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWebContext.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWebContext.cs",
+              "ViewState": "AQIAABsAAAAANDMzM7MXwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T23:01:59.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAACQAAACgmZmZmRkowCMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:34:51.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlaylistService.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\PlaylistService.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Streaming\\PlaylistService.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\PlaylistService.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Streaming\\PlaylistService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAqwDkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:24:55.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaylistController.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\PlaylistController.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\PlaylistController.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\PlaylistController.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\PlaylistController.cs",
+              "ViewState": "AQIAAEgAAAAA1MzMzMwOwFcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:19:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MusicaDto.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\MusicaDto.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\MusicaDto.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\MusicaDto.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\MusicaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\Conta\\Agreggates\\Playlist.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Domain\\Conta\\Agreggates\\Playlist.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\Conta\\Agreggates\\Playlist.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Domain\\Conta\\Agreggates\\Playlist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:27:49.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Program.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Program.cs",
+              "ViewState": "AQIAABgAAACAm5mZmRkWwCIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MusicaController.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\MusicaController.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\MusicaController.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\MusicaController.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\MusicaController.cs",
+              "ViewState": "AQIAABEAAABgZ2ZmZuYrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T22:28:00.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlaylistDto.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\PlaylistDto.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\PlaylistDto.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\PlaylistDto.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Streaming\\Dto\\PlaylistDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:26:51.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GuidGeneratorController.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\GuidGeneratorController.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\GuidGeneratorController.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\GuidGeneratorController.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\GuidGeneratorController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MusicaService.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\MusicaService.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Streaming\\MusicaService.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\MusicaService.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Streaming\\MusicaService.cs",
+              "ViewState": "AQIAABsAAAAAn5mZmZkDwC4AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Musica.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\Streaming\\Agreggates\\Musica.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Domain\\Streaming\\Agreggates\\Musica.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\Streaming\\Agreggates\\Musica.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Domain\\Streaming\\Agreggates\\Musica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Usuario [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Usuario.sql",
+              "ToolTip": "dbo.Usuario [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-06T01:43:57.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Plano [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Plano.sql",
+              "ToolTip": "dbo.Plano [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-06T02:43:36.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Cartao [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Cartao.sql",
+              "ToolTip": "dbo.Cartao [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-06T02:54:19.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Conta\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Conta\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Conta\\UsuarioService.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Conta\\UsuarioService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MusicaProfile.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Profile\\MusicaProfile.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Application\\Streaming\\Profile\\MusicaProfile.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\Streaming\\Profile\\MusicaProfile.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Application\\Streaming\\Profile\\MusicaProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlaylistMapping.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\PlaylistMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MusicaMapping.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\MusicaMapping.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\MusicaMapping.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\MusicaMapping.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\Mapping\\Streaming\\MusicaMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BandaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Repository\\BandaRepository.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\Repository\\BandaRepository.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\Repository\\BandaRepository.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\Repository\\BandaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.Banda [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Banda.sql",
+              "ToolTip": "dbo.Banda [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-29T01:53:07.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BandaController.cs",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\BandaController.cs",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\Controllers\\BandaController.cs",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\Controllers\\BandaController.cs",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\Controllers\\BandaController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:37:20.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Album [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/PrjBloco/True/SqlTable/dbo.Album.sql",
+              "ToolTip": "dbo.Album [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-29T01:50:43.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\appsettings.Development.json",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T18:37:20.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\appsettings.json",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T18:37:20.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "scripts_EF.txt",
+              "DocumentMoniker": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\scripts_EF.txt",
+              "RelativeDocumentMoniker": "PrjBlocoSistemaWeb.Repository\\scripts_EF.txt",
+              "ToolTip": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\scripts_EF.txt",
+              "RelativeToolTip": "PrjBlocoSistemaWeb.Repository\\scripts_EF.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-07T18:37:20.807Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

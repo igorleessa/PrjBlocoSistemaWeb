@@ -1,0 +1,26 @@
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>Nome da Musica</mat-label>
+            <input matInput placeholder="Musica da Musica" [formControl]="nomeMusica" >
+              
+        </mat-form-field>
+    
+    <button mat-flat-button color="primary" (click)="buscarMusica">Buscar</button>
+
+<mat-card>
+    <mat-card-content>
+        <p *ngFor="let music of musicas">
+            Musica: {{music.nome}} - {{music.duracao}} min  <button mat-flat-button color="primary" (click)="favoritarMusica(music.id)">Favoritar</button>
+        </p>
+    </mat-card-content>
+</mat-card>
+
+<mat-list>
+    <mat-list-item *ngFor="let item of playlist">
+        {{item.nome}}
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+        
+

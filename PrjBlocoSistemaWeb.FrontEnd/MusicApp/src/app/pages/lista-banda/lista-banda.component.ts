@@ -7,6 +7,7 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { MusicaService } from '../../services/musica.service';
 
 @Component({
   selector: 'app-lista-banda',
@@ -33,4 +34,7 @@ export class ListaBandaComponent implements OnInit{
      this.router.navigate(["detail", item.id]);
    }
 
+   public goToPlaylists(){
+    this.router.navigate(["playlists"]);
+   }
 }
