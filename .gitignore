@@ -1,0 +1,20 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/PrjBlocoSistemaWeb/FileContentIndex
+/PrjBlocoSistemaWeb.Api/obj/Debug/net8.0/PrjBlocoSistemaWeb.Api.AssemblyInfo.cs
+/PrjBlocoSistemaWeb.Api/obj/Debug/net8.0/PrjBlocoSistemaWeb.Api.AssemblyInfoInputs.cache
+/PrjBlocoSistemaWeb.Api/obj/Debug/net8.0/PrjBlocoSistemaWeb.Api.csproj.AssemblyReference.cache
+/PrjBlocoSistemaWeb.Api/obj/Debug/net8.0/PrjBlocoSistemaWeb.Api.GeneratedMSBuildEditorConfig.editorconfig
+/PrjBlocoSistemaWeb.Application/obj/Debug/net8.0/PrjBlocoSistemaWeb.Application.AssemblyInfo.cs
+/PrjBlocoSistemaWeb.Application/obj/Debug/net8.0/PrjBlocoSistemaWeb.Application.AssemblyInfoInputs.cache
+/PrjBlocoSistemaWeb.Application/obj/Debug/net8.0/PrjBlocoSistemaWeb.Application.csproj.AssemblyReference.cache
+/PrjBlocoSistemaWeb.Application/obj/Debug/net8.0/PrjBlocoSistemaWeb.Application.GeneratedMSBuildEditorConfig.editorconfig
+/PrjBlocoSistemaWeb.Domain/obj/Debug/net8.0/PrjBlocoSistemaWeb.Domain.AssemblyInfo.cs
+/PrjBlocoSistemaWeb.Domain/obj/Debug/net8.0/PrjBlocoSistemaWeb.Domain.AssemblyInfoInputs.cache
+/PrjBlocoSistemaWeb.Domain/obj/Debug/net8.0/PrjBlocoSistemaWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/PrjBlocoSistemaWeb.Repository/obj/Debug/net8.0/PrjBlocoSistemaWeb.Repository.AssemblyInfo.cs
+/PrjBlocoSistemaWeb.Repository/obj/Debug/net8.0/PrjBlocoSistemaWeb.Repository.AssemblyInfoInputs.cache
+/PrjBlocoSistemaWeb.Repository/obj/Debug/net8.0/PrjBlocoSistemaWeb.Repository.csproj.AssemblyReference.cache
+/PrjBlocoSistemaWeb.Repository/obj/Debug/net8.0/PrjBlocoSistemaWeb.Repository.GeneratedMSBuildEditorConfig.editorconfig
