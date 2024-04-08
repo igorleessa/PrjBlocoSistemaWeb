@@ -9,3 +9,6 @@ export interface Musica {
     nome?:string
     duracao?:string
 }
+export interface Duracao {
+    valor?: string
+}

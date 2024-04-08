@@ -35,13 +35,71 @@ namespace PrjBlocoSistemaWeb.Application.Streaming
 
         public PlaylistDto GetById(Guid id)
         {
-            var banda = this.PlaylistRepository.GetById(id);
-            return this.Mapper.Map<PlaylistDto>(banda);
+            var playlist = this.PlaylistRepository.GetById(id);
+
+            var resp = new PlaylistDto();
+            if (playlist != null)
+            {
+                resp.Id = playlist.Id;
+                resp.Nome = playlist.Nome;
+                resp.Publica = playlist.Publica;
+                resp.DtCriacao = playlist.DtCriacao;
+                resp.Usuario = new Conta.Dto.UsuarioDto();
+                resp.Usuario.Id = playlist.Usuario.Id;
+                resp.Usuario.Nome = playlist.Usuario.Nome;
+                resp.Usuario.Email = playlist.Usuario.Email;
+                resp.Usuario.Senha = playlist.Usuario.Senha;
+                resp.Usuario.DtNascimento = playlist.Usuario.DtNascimento;
+                resp.Musicas = new List<MusicaDto>();
+                foreach (var item1 in playlist.Musicas)
+                {
+                    var musica = new MusicaDto();
+                    musica.Id = item1.Id;
+                    musica.Nome = item1.Nome;
+                    musica.Duracao = item1.Duracao;
+                    musica.Playlists = new List<Playlist>();
+                    resp.Musicas.Add(musica);
+                }
+            }
+            return resp;
         }
 
-        public List<Playlist> ObterPlaylistPorUsuario(Guid id)
+
+        public List<PlaylistDto> ObterPlaylistPorUsuario(Guid id)
         {
-            return this.PlaylistRepository.Find(x => x.Usuario.Id == id).ToList();
+            var playlist = this.PlaylistRepository.Find(x => x.Usuario.Id == id).ToList();
+
+            var resp = new List<PlaylistDto>();
+            if (playlist != null)
+            {
+                foreach (var item in playlist)
+                {
+                    var obj = new PlaylistDto();
+                    obj.Id = item.Id;
+                    obj.Nome = item.Nome;
+                    obj.Publica = item.Publica;
+                    obj.DtCriacao = item.DtCriacao;
+                    obj.Usuario = new Conta.Dto.UsuarioDto();
+                    obj.Usuario.Id = item.Usuario.Id;
+                    obj.Usuario.Nome = item.Usuario.Nome;
+                    obj.Usuario.Email = item.Usuario.Email;
+                    obj.Usuario.Senha = item.Usuario.Senha;
+                    obj.Usuario.DtNascimento = item.Usuario.DtNascimento;
+                    var musica = new MusicaDto();
+                    foreach (var item1 in item.Musicas)
+                    {
+                        obj.Musicas = new List<MusicaDto>();
+                        musica.Id = item1.Id;
+                        musica.Nome = item1.Nome;
+                        musica.Duracao = item1.Duracao;
+                        musica.Playlists = new List<Playlist>();
+                        obj.Musicas.Add(musica);
+                    }
+
+                    resp.Add(obj);
+                }
+            }
+            return resp;
         }
 
         public IEnumerable<PlaylistDto> Obter()
@@ -52,15 +110,16 @@ namespace PrjBlocoSistemaWeb.Application.Streaming
 
         public List<Playlist> BuscarPlaylist(string nomePLaylist)
         {
-            return PlaylistRepository.Find(x => x.Nome.Contains(nomePLaylist)).ToList(); 
+            return PlaylistRepository.Find(x => x.Nome.Contains(nomePLaylist)).ToList();
         }
 
-        public Playlist AssociarFavorito(Guid idMusica, Guid idPlaylist)
+        public void AssociarFavorito(Guid idMusica, Guid idPlaylist)
         {
             var playlistFavorita = PlaylistRepository.GetById(idPlaylist);
             var musica = MusicaRepository.GetById(idMusica);
-            
-            if(playlistFavorita is null) {
+
+            if (playlistFavorita is null)
+            {
                 playlistFavorita.Musicas = new List<Musica>();
             }
 
@@ -68,7 +127,6 @@ namespace PrjBlocoSistemaWeb.Application.Streaming
 
             PlaylistRepository.Update(playlistFavorita);
 
-            return playlistFavorita;
         }
 
     }

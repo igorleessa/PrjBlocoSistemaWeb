@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import { stringToKeyValue } from '@angular/flex-layout/extended/style/style-transforms';
+import { Playlist } from '../../model/Playlist';
 
 @Component({
   selector: 'app-favoritar',
@@ -20,7 +21,8 @@ import { stringToKeyValue } from '@angular/flex-layout/extended/style/style-tran
   styleUrl: './favoritar.component.css'
 })
 export class FavoritarComponent {
-  playlist = null
+  
+  playlist!: Playlist
   musicas = null
   nomeMusica = new FormControl('',[Validators.required]);
 
@@ -29,11 +31,7 @@ export class FavoritarComponent {
   }
 
   ngOnInit(): void {
-    this.musicaService.obterPlaylist().subscribe(response =>
-      {
-        console.log(response)
-        this.playlist = response as any
-      })
+    this.obterPlaylist();
   }
 
   public buscarMusica(){
@@ -45,9 +43,15 @@ export class FavoritarComponent {
    }
 
    public favoritarMusica(idMusica: string){
-      let idPlaylist = sessionStorage.getItem("idPlaylist") + '';
+      this.musicaService.favoritarMusica(idMusica).subscribe(response =>{
+        console.log(response)
+        this.obterPlaylist()
+      })
+   }
 
-      this.musicaService.favoritarMusica(idMusica, idPlaylist).subscribe(response =>{
+   public obterPlaylist(){
+    this.musicaService.obterPlaylist().subscribe(response =>
+      {
         console.log(response)
         this.playlist = response as any
       })

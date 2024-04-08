@@ -84,13 +84,10 @@ namespace PrjBlocoSistemaWeb.Api.Controllers
         {
             if (ModelState is { IsValid: false })
                 return BadRequest();
+            
+            this._playlistService.AssociarFavorito(idMusica, idPlaylist);
 
-            var result = this._playlistService.AssociarFavorito(idMusica, idPlaylist);
-
-            if (result == null)
-                return NotFound();
-
-            return Ok(result);
+            return Ok();
 
         }
     }

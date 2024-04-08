@@ -1,4 +1,5 @@
-﻿using PrjBlocoSistemaWeb.Domain.Conta.Agreggates;
+﻿using PrjBlocoSistemaWeb.Application.Conta.Dto;
+using PrjBlocoSistemaWeb.Domain.Conta.Agreggates;
 using PrjBlocoSistemaWeb.Domain.Streaming.Agreggates;
 using System.ComponentModel.DataAnnotations;
 
@@ -12,8 +13,8 @@ namespace PrjBlocoSistemaWeb.Application.Streaming.Dto
         [Required]
         public Boolean Publica { get; set; }
         [Required]
-        public virtual Usuario Usuario { get; set; }
-        public virtual IList<Musica> Musicas { get; set; }
+        public virtual UsuarioDto Usuario { get; set; }
+        public virtual IList<MusicaDto> Musicas { get; set; }
         public DateTime DtCriacao { get; set; }
     }
 }
