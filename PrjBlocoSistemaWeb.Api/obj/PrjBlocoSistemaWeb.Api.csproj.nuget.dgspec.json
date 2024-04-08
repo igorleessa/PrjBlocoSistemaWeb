@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj": {}
+    "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj": {
+    "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj",
+        "projectUniqueName": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj",
         "projectName": "PrjBlocoSistemaWeb.Api",
-        "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj",
-        "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\obj\\",
+        "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\PrjBlocoSistemaWeb.Api.csproj",
+        "packagesPath": "C:\\Users\\igor.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igor.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ons.org.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj": {
-                "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj"
+              "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj": {
+                "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj"
               }
             }
           }
@@ -43,64 +49,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj": {
+    "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj",
+        "projectUniqueName": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj",
         "projectName": "PrjBlocoSistemaWeb.Application",
-        "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj",
-        "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\obj\\",
+        "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\PrjBlocoSistemaWeb.Application.csproj",
+        "packagesPath": "C:\\Users\\igor.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igor.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,14 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ons.org.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj": {
-                "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj"
+              "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj": {
+                "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj"
               }
             }
           }
@@ -129,43 +108,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj": {
+    "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj",
         "projectName": "PrjBlocoSistemaWeb.Domain",
-        "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj",
-        "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\obj\\",
+        "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj",
+        "packagesPath": "C:\\Users\\igor.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igor.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,6 +145,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ons.org.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -196,31 +169,30 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj": {
+    "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj",
         "projectName": "PrjBlocoSistemaWeb.Repository",
-        "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj",
-        "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\obj\\",
+        "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\PrjBlocoSistemaWeb.Repository.csproj",
+        "packagesPath": "C:\\Users\\igor.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igor.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,14 +200,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ons.org.br/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj": {
-                "projectPath": "C:\\Users\\igorl\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj"
+              "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj": {
+                "projectPath": "C:\\Users\\igor.souza\\source\\repos\\PrjBlocoSistemaWeb\\PrjBlocoSistemaWeb.Domain\\PrjBlocoSistemaWeb.Domain.csproj"
               }
             }
           }
@@ -249,45 +222,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.Extensions.Logging.Console": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }
